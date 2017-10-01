@@ -1,6 +1,7 @@
 # platzi-form
 
 > Proyecto de práctica en vuejs, realizando un front end de un formulario de registro con un diseño muy minimalista y limpio.
+[ENLACE A EJEMPLO](https://eherna40.github.io/fomularioVuejs/index.html)
 
 ## Build Setup
 
