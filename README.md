@@ -3,6 +3,8 @@
 > Proyecto de práctica en vuejs, realizando un front end de un formulario de registro con un diseño muy minimalista y limpio.
 [ENLACE A EJEMPLO](https://eherna40.github.io/fomularioVuejs/index.html)
 
+El proyecto está apoyado en con las librerías de bulma y con el preprocesador de css
+
 ## Build Setup
 
 ``` bash
