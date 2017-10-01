@@ -1,0 +1,77 @@
+@import"~bulma/bulma.sass";
+
+
+.bk{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+#app,
+.title,
+.input{
+    color: white;
+}
+
+.label{
+    color: rgba(255,255,255,.5);
+    font-size: .8rem;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 12px !important;
+}
+
+.input,
+.select select{
+    background: rgba(255,255,255,.3);
+    border-radius: 30px;
+    border: 0;
+    padding: 0 20px;
+    font-weight: 700;
+}
+.select,
+select{
+    width: 100%;
+}
+
+select{
+    background: transparent;
+    color: white;
+}
+
+h1{
+    border-bottom: 3px solid #1161EE;
+    width: 80px;
+    padding-bottom: 10px;
+    font-size: 1.2rem !important;
+
+}
+
+button.button{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #1161EE;
+    border:0;
+    color: white;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.button:hover, 
+.button.is-hovered,
+.button:active, 
+.button.is-active,
+.button:focus{
+
+    border-color:0;
+    color: white;
+}
+@media screen and (min-width: 769px){
+    .column.is-one-third, .column.is-one-third-tablet {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .column.is-three-quarters-mobile {
+        max-width: 370px;
+    }
+}
